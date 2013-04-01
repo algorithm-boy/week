@@ -1,0 +1,30 @@
+!!!
+html
+	head
+		include mods/head
+	body
+		//http://cubiq.org/iscroll-4 滚动效果
+		//http://zeptojs.com/	移动开发库
+		//http://hi.baidu.com/alimyself/item/5844d68a8e92fc57840fab8a
+		//http://app-framework-software.intel.com/
+		- var items = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,,21,22,23,24,25,26,27,28,,21,22,23,24,25,26,27,28]
+		.page
+			.nav#nav 这里是顶部导航区域
+			.flip#flip
+				.sidebar#sidebar
+					.slide
+						h3: button 设置
+						ul
+							each item in items
+								li	bar#{item}test33
+				.screen#oneScreen
+					.slide
+						ul
+							each item in items
+								li one测试#{item}
+				.screen#twoScreen
+					.slide
+						ul
+							each item in items
+								li: a(href="") two#{item}
+				
