@@ -10,8 +10,6 @@
 
 三. demo目录说明
 
-demo
-
     assets
 
         base -- 目前存放的JS库文件
