@@ -24,7 +24,7 @@
 
         nav.php -- 顶部导航；
 
-        show.php --  周报展示
+        detail.php --  周报详情
 
     index.php -- 首页，包含顶部导航，组员列表，周报展示及周报评论；
 
@@ -37,7 +37,7 @@
 
     子竹 -- login.php
 
-    卢石 -- 搜集移动端设备主流分辨率；show.php
+    卢石 -- 搜集移动端设备主流分辨率；detail.php
 
     长天 -- 确定项目demo目录结构及模块划分并分工；github上创建项目；write.php    
 

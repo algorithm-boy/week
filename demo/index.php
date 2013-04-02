@@ -18,7 +18,7 @@
             <?php include "html/member_list.php";?>
         </div>
         <div id="oneScreen" class="screen">
-            <?php include "html/show.php"; ?>
+            <?php include "html/detail.php"; ?>
         </div>
         <div id="twoScreen" class="screen">
             <?php include "html/comments.php";?>
