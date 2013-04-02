@@ -33,3 +33,16 @@
     write.php -- 写周报的页面；
 
 
+四. 人员分工
+
+    子竹 -- login.php
+
+    卢石 -- 搜集移动端设备主流分辨率；show.php
+
+    长天 -- 确定项目demo目录结构及模块划分并分工；github上创建项目；write.php    
+
+    肖涛 -- 完成week系统线框图；comments.php
+
+    石霸 -- member_list.php；nav.php
+
+
